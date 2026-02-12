@@ -15,11 +15,11 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://username.github.io',
-  baseUrl: '/ai-blog/',
+  url: 'https://wzjgo.github.io',
+  baseUrl: '/',
 
-  organizationName: 'username',
-  projectName: 'ai-blog',
+  organizationName: 'wzjgo',
+  projectName: 'wzjgo.github.io',
 
   trailingSlash: false,
 
