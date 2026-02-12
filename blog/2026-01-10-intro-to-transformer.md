@@ -3,7 +3,7 @@ title: Transformer 架构详解：从注意力机制到大语言模型
 slug: intro-to-transformer
 authors: [default-author]
 tags: [深度学习, 自然语言处理, 大语言模型, 机器学习]
-date: 2024-01-15
+date: 2026-01-10
 ---
 
 Transformer 架构自 2017 年被提出以来，彻底改变了自然语言处理领域的格局。从 BERT 到 GPT，再到如今的各类大语言模型，Transformer 已经成为现代 AI 系统的核心基础架构。本文将带你深入理解 Transformer 的核心原理与实现方式。
