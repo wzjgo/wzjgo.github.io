@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#f0f4f8" rx="8"/>
+  <rect x="240" y="20" width="120" height="40" fill="#4a90d9" rx="6"/>
+  <text x="300" y="45" text-anchor="middle" fill="white" font-size="14" font-family="sans-serif">Output</text>
+  <rect x="240" y="80" width="120" height="40" fill="#5ba0e0" rx="6"/>
+  <text x="300" y="105" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif">Linear + Softmax</text>
+  <rect x="240" y="140" width="120" height="40" fill="#6bb0e8" rx="6"/>
+  <text x="300" y="165" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif">Feed Forward</text>
+  <rect x="240" y="200" width="120" height="40" fill="#7bc0f0" rx="6"/>
+  <text x="300" y="225" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif">Multi-Head Attn</text>
+  <rect x="240" y="260" width="120" height="40" fill="#8bd0f8" rx="6"/>
+  <text x="300" y="285" text-anchor="middle" fill="white" font-size="12" font-family="sans-serif">Positional Enc</text>
+  <rect x="240" y="320" width="120" height="40" fill="#9be0ff" rx="6"/>
+  <text x="300" y="345" text-anchor="middle" fill="#333" font-size="12" font-family="sans-serif">Input Embedding</text>
+  <text x="300" y="385" text-anchor="middle" fill="#666" font-size="11" font-family="sans-serif">Transformer 架构示意图（占位图）</text>
+  <!-- Arrows -->
+  <line x1="300" y1="360" x2="300" y2="300" stroke="#999" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="300" y1="300" x2="300" y2="240" stroke="#999" stroke-width="2"/>
+  <line x1="300" y1="240" x2="300" y2="180" stroke="#999" stroke-width="2"/>
+  <line x1="300" y1="180" x2="300" y2="120" stroke="#999" stroke-width="2"/>
+  <line x1="300" y1="120" x2="300" y2="60" stroke="#999" stroke-width="2"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#999"/>
+    </marker>
+  </defs>
+</svg>
